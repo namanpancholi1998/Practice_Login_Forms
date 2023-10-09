@@ -1,0 +1,128 @@
+html{
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    display: flex;
+}
+
+.banner {
+    background-image: url(img/osarugue-igbinoba-s2Ai9cYyIWE-unsplash\ 1.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    position: relative;
+}
+
+.container {
+    margin: 10%;
+}
+
+.company-name {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+.banner p {
+    position: absolute;
+    bottom: 15%;
+}
+
+.caption {
+    position: absolute;
+    bottom: 10%;
+}
+
+.form, .banner{
+    /* height: 90vh; */
+    width: 50%;
+}
+
+
+.login {
+    height: 100vh;
+    width: 90%;
+    margin: 10%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:stretch;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.start h1 {
+    margin: 0 0 2rem 0;   
+}
+.signUp button {
+    background-color: white;
+    border: 1px solid lightgrey;
+    border-radius: 0.2rem;
+    padding: 0.3rem;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+.or {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+}
+
+.or::after,
+.or::before {
+    background-color: black;
+    margin-right: 0.2rem;
+    margin-left: 0.2rem;
+    height: 0.05rem;
+    display: block;
+    content: "";
+    width: 100%;
+    opacity: 0.5;
+}
+
+.or span {
+    opacity: 0.5;
+}
+
+.email label {
+    display: inline-block;
+    margin-top: 1rem;;
+}
+
+.email input, .password input {
+    /* display: inline-block;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid lightgrey;
+    border-radius: 0.2rem;
+    width: 100%; */
+
+    background-color: white;
+    border: 1px solid lightgrey;
+    border-radius: 0.2rem;
+    padding: 0.3rem;
+    margin-bottom: 2rem;
+    width: calc(100% - 10px)
+}
+
+.getin button {
+    color: white;
+    background-color: blue;
+    padding: 0.5rem;
+    border: 0px;
+    border-radius: 0.3rem;
+    width: auto;
+    margin-bottom: 1rem;
+    width: 100%;
+}
