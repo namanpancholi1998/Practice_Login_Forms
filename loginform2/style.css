@@ -1,0 +1,117 @@
+html{
+    font-size: 16px;
+    /* max-width: 600px; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    background-color: lightblue;
+}
+
+.main_section{
+    display: flex;
+    /* align-items: center; */
+    background-color: white;
+    width: 80%;
+    margin: auto;
+}
+
+.form_section, .banner_section{
+   width: 50%;
+   height: 100vh;
+}
+
+.form_inner_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    background-color: white;
+    
+}
+
+.google button{
+    padding: 0.5rem;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 1rem;
+    width: 100%;
+}
+
+.horizontal-line{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.horizontal-line p {
+    margin-right: 1rem;
+}
+
+.horizontal-line::before, .horizontal-line::after {
+    background-color: red;
+    width: 5rem;
+    margin-right: 0.5rem;
+    height: 1px;
+    display: block;
+    content: " ";
+}
+
+.star{
+    color: blue;
+}
+
+.email_input, .password_input{
+    padding: 0.5rem;
+    margin: 0.2rem;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 1rem;
+    width: 85%;
+}
+
+.remember_checkbox{
+    display: flex;
+    justify-content: space-between;
+}
+.remember_checkbox a{
+    margin-top: 15px;
+}
+.remember_me{
+    display: flex;
+    gap: 15px;
+}
+
+remember_me a{
+    padding-top: 15px;
+    padding-right: 2px;
+}
+
+.login-button button{
+    padding: 0.5rem;
+    margin: 0.2rem;
+    background-color: rgb(76, 15, 231);
+    border: 1px solid lightgray;
+    border-radius: 1rem;
+    width: 88%;
+}
+
+.banner_section img{
+    width: 100%;
+    height: 100%;
+}
+
+.banner_section{
+    background-image: url(banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer{
+    margin-top: 10px;
+    display: flex;
+    justify-content: start;
+}
+
+
